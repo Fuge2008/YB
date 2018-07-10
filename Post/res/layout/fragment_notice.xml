@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/sgray"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <RadioButton
+            android:id="@+id/rb_today"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="今日公告"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_buy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="申购公告"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_trusteeship"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="现货包托"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_policy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="政策咨询"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/sgray" />
+
+    <FrameLayout
+        android:id="@+id/fl_contain_notice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

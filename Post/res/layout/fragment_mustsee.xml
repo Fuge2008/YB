@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/sgray"
+        android:orientation="horizontal"
+        android:weightSum="4" >
+
+        <RadioButton
+            android:id="@+id/rb_technology"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="技术分享"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_experience"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="经验分享"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_system"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="政策制度"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+
+        <RadioButton
+            android:id="@+id/rb_newbie"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="1"
+            android:background="@drawable/rb_sele_redorwi"
+            android:button="@null"
+            android:gravity="center"
+            android:text="新手必读"
+            android:textColor="@color/klin_color"
+            android:textSize="@dimen/sp14" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/sgray" />
+
+    <FrameLayout
+        android:id="@+id/fl_contain_mustsee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
